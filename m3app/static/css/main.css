@@ -1236,6 +1236,10 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     color: #FFFFFF;
 }
 
+.display-2--medium {
+    color: #abb3ac;
+}
+
 .subhead + .display-2 {
     margin-top: .6rem;
 }
@@ -1313,6 +1317,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .section-header.has-bottom-sep {
     padding-bottom: 2.1rem;
     position: relative;
+    max-width: 1500px;
+    height: 300px;
+    background-image: url("../images/estudio-bg.jpg");
 }
 
 .section-header.has-bottom-sep::before {
