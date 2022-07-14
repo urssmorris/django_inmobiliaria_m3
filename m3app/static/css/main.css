@@ -1237,7 +1237,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .display-2--medium {
-    color: #abb3ac;
+    color: #f3f3f3;
+    filter: drop-shadow(0 0 1px #000) drop-shadow(1px 1px 0 #000);  
+    /* drop-shadow(-1px 1px 0 #000) drop-shadow(1px -1px 0 #000) drop-shadow(-1px -1px 0 #000); */
 }
 
 .subhead + .display-2 {
@@ -1319,7 +1321,14 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     position: relative;
     max-width: 1500px;
     height: 300px;
-    background-image: url("../images/estudio-bg.jpg");
+}
+
+.section-header.has-bottom-sep1 {
+    padding-bottom: 2.1rem;
+    position: relative;
+    max-width: 1500px;
+    height: 350px;
+    background-image: url("../images/estudio-bg1.jpg");
 }
 
 .section-header.has-bottom-sep::before {
