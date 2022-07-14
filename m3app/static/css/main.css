@@ -1327,7 +1327,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     padding-bottom: 2.1rem;
     position: relative;
     max-width: 90%;
-    height: 350px;
+    height: 90%;
     background-image: url("../images/estudio-bg1.jpg");
 }
 
