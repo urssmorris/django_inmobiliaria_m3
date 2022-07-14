@@ -1326,7 +1326,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .section-header.has-bottom-sep1 {
     padding-bottom: 2.1rem;
     position: relative;
-    max-width: 1500px;
+    max-width: 90%;
     height: 350px;
     background-image: url("../images/estudio-bg1.jpg");
 }
